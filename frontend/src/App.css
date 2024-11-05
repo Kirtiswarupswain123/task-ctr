@@ -1,0 +1,40 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.prediction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+select, button {
+  padding: 8px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
